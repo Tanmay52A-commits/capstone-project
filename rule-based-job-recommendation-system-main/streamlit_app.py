@@ -229,7 +229,7 @@ BASE_API_URL = "http://127.0.0.1:7860"
 FLOW_ID = "1a520f57-f6b0-46b3-aa50-9041f4d83e60"
 
 # Load jobs data
-jobs_df = pd.read_csv("C://Users//Tanmay//Downloads//jobs.csv")
+jobs_df = pd.read_csv("jobs.csv")
 
 # Extract unique job types (skills) from 'Job type' column
 available_skills = sorted(jobs_df["Job type"].dropna().unique().tolist())
